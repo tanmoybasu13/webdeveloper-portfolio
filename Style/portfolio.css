@@ -17,9 +17,27 @@ body {
     font-style: normal;
     font-weight: 700;
     color: white;
-
-
 }
+
+.section-tittle {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-description {
+    color: #363535;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
 
 /* nav realted css */
 
@@ -51,9 +69,10 @@ nav a {
 }
 
 .hudai {
-    color: rgb(249, 35, 2);
+    color: rgb(153, 2, 199);
     text-decoration-color: black;
     text-decoration: wavy;
+    font-weight: bold;
 }
 
 /* header realted style */
@@ -72,9 +91,11 @@ nav a {
     justify-content: space-between;
 
 }
-.banner-content{
+
+.banner-content {
     width: 585px;
 }
+
 .profile-pic {
     width: 584px;
     height: 550px;
@@ -98,4 +119,13 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+/* about section style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
+
 }
